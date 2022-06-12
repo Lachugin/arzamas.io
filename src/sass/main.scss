@@ -1,0 +1,48 @@
+// var
+@import "variable/variables.scss";
+
+// normalize
+@import "libs/normalize.scss";
+
+// color
+
+
+// mixin
+@mixin md {
+  @media (max-width: 700px) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+}
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@font-face {
+	font-family: 'Nizhegorodsky'; 
+	src: url(../font/ST-Nizhegorodsky.woff2); 
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+
+}
+
+// @import 'block/*.scss';  all
+@import 'blocks/header.scss';
