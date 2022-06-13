@@ -1,0 +1,74 @@
+.contacts {
+  padding-top: 250px;
+  padding-bottom: 117px;
+  background: url('../img/decor-bg4.png') top left no-repeat,
+              url('../img/decot-bg1.png') bottom right no-repeat,
+              url('../img/decot-bg3.png') bottom left no-repeat;
+}
+
+.contacts__inner {
+  margin-top: 119px;
+  max-width: 1280px;
+  max-height: 829px;
+  border-radius: 46px;
+  background: $section-contacts-bg;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts__info {
+  padding: 95px 50px
+}
+
+.contacts__img {
+  width: 327px;
+  height: 327px;
+}
+
+.contacts__info-list {
+  list-style: none;
+  margin: 0;
+  margin-top: 55px;
+  padding: 0;
+}
+
+.contacts__info-item {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.contacts__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: $basic-text-color;
+  text-decoration: none;
+}
+
+.contacts__info-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.contacts__img-social {
+  width: 48px;
+  height: 48px;
+}
+
+.contacts__map-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0 46px 46px 0;
+}
+
+.contacts__list  {
+  list-style: none;
+  margin: 0;
+  margin-top: 55px;
+  padding: 0;
+  display: flex;
+  gap: 35px;
+}
