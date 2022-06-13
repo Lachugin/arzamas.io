@@ -1,12 +1,19 @@
 .slider {
   margin: 0 auto;
   padding: 0;
-  height: 713px;
   max-width: 1440px;
 }
 
 .slider__wrap {
   position: relative;
+}
+
+.slider__item {
+  height: 713px;
+  width: 100%;
+  img {
+    height: 713px;
+  }
 }
 
 .slider__arrow {

@@ -1,0 +1,30 @@
+.title {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: 'Nizhegorodsky';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 106px;
+  text-align: center;
+  color: $basic-text-color;
+  display: flex;
+  gap: 75px;
+  justify-content: center;
+  align-items: center;
+  &::before {
+    display: block;
+    content: '';
+    background-image: url('../img/fish-left.png');
+    width: 180.65px;
+    height: 69px;
+  }
+  &::after {
+    display: block;
+    content: '';
+    background-image: url('../img/fish-right.png');
+    width: 227.12px;
+    height: 69px;
+  }
+}
