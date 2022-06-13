@@ -1,9 +1,9 @@
 // var
 @import "variable/variables.scss";
 
-// normalize
+// libs
 @import "libs/normalize.scss";
-
+@import "libs/slick.scss";
 // color
 
 
@@ -41,8 +41,11 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
+  background-color: $color-bg;
 
 }
 
 // @import 'block/*.scss';  all
 @import 'blocks/header.scss';
+@import 'blocks/slider.scss';
+@import 'blocks/btn.scss';
