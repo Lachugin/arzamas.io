@@ -18,14 +18,22 @@
   box-sizing: border-box;
 }
 
-img {
+picture {
+  display: block;
   width: 100%;
+  height: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1140px;
+  max-width: 1440px;
 }
 
 // fonts
@@ -51,3 +59,5 @@ body {
 @import 'blocks/btn.scss';
 @import 'blocks/about.scss';
 @import 'blocks/title.scss';
+@import 'blocks/assortment.scss';
+@import 'blocks/why.scss';

@@ -16,14 +16,14 @@
   &::before {
     display: block;
     content: '';
-    background-image: url('../img/fish-left.png');
-    width: 180.65px;
+    background-image: url('../img/fish-left.png') no-repeat;
+    width: 227.12px;
     height: 69px;
   }
   &::after {
     display: block;
     content: '';
-    background-image: url('../img/fish-right.png');
+    background-image: url('../img/fish-right.png') no-repeat;
     width: 227.12px;
     height: 69px;
   }
