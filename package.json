@@ -53,7 +53,10 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "gulp-fonter-fix": "^0.0.1"
+    "gulp-fonter-fix": "^0.0.1",
+    "jquery": "^3.6.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.2.3"
   },
   "description": ""
 }

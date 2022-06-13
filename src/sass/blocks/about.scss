@@ -1,0 +1,19 @@
+.about {
+  padding-top: 135px;
+  padding-bottom: 300px;
+  background: url('../img/decor-bg1.png') top left no-repeat,
+    url('../img/decot-bg2.png') bottom right no-repeat;
+}
+
+
+.about__text {
+  margin: 0 auto;
+  margin-top: 57px;
+  width: 840px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: $basic-text-color;
+  text-align: justify;
+}

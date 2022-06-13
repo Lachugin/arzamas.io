@@ -1,9 +1,9 @@
 // var
 @import "variable/variables.scss";
 
-// normalize
+// libs
 @import "libs/normalize.scss";
-
+@import "libs/slick.scss";
 // color
 
 
@@ -18,14 +18,22 @@
   box-sizing: border-box;
 }
 
-img {
+picture {
+  display: block;
   width: 100%;
+  height: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1140px;
+  max-width: 1440px;
 }
 
 // fonts
@@ -41,8 +49,17 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
+  background-color: $color-bg;
 
 }
 
 // @import 'block/*.scss';  all
 @import 'blocks/header.scss';
+@import 'blocks/slider.scss';
+@import 'blocks/btn.scss';
+@import 'blocks/about.scss';
+@import 'blocks/title.scss';
+@import 'blocks/assortment.scss';
+@import 'blocks/why.scss';
+@import 'blocks/contacts.scss';
+@import 'blocks/footer.scss';

@@ -1,0 +1,82 @@
+.why {
+  background: url('../img/why-bg.jpg') center (center/cover) no-repeat;
+  background-attachment: fixed;
+  min-height: 1024px;
+  position: relative;
+}
+
+.why__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  max-width: 1120px;
+  background: $card-bg;
+  position: absolute;
+  padding: 100px  45px 0 45px;
+  padding-bottom: 100px;
+  box-shadow: 0px 12px 43px rgba(0, 0, 0, 0.25);
+  border-radius: 28px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.why__title {
+  margin: 0;
+  font-family: 'Nizhegorodsky';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 106px;
+  text-align: center;
+  letter-spacing: 0.29em;
+  color: $basic-text-color;
+}
+
+.why__subtitle {
+  max-width: 798px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: $basic-text-color;
+}
+
+.why__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 60px;
+  gap: 40px;
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.why__item  {
+  margin: 0;
+  padding: 0;
+  max-width: 227px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.why__img {
+  width: 170px;
+  height: 170px;
+}
+
+.why__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: $color-why-text;
+}
